@@ -1,0 +1,637 @@
+@import url("fonts.css");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  font-family: "Inter-Regular";
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  color: #53575c;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/src/Components/form_toot/img/marek-piwnicki-5jay5exvpuE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.App .form {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: rgba(13, 14, 16, 0.8);
+}
+
+.App .form .form_container {
+  position: relative;
+}
+
+.App .form .form_container .first_step {
+  width: 312px;
+  height: 0;
+  overflow: hidden;
+  background: linear-gradient(358.38deg, #21262d 23.81%, #252a30 98.62%);
+  border-radius: 6px;
+}
+
+.App .form .form_container .first_step .section_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .form .form_container .first_step .section_1 .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 8px;
+}
+
+.App .form .form_container .first_step .section_1 .steps .step {
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background: #53575c;
+  margin-right: 3px;
+}
+
+.App .form .form_container .first_step .section_1 .steps .active {
+  background: linear-gradient(178.34deg, #7d54f2 4.6%, #702be1 100.16%);
+}
+
+.App .form .form_container .first_step .section_1 .middle {
+  margin-right: 10px;
+}
+
+.App .form .form_container .first_step .section_1 .middle h6 {
+  margin: 0;
+  font-weight: bold;
+  line-height: 19px;
+  color: #f2f2f2;
+}
+
+.App .form .form_container .first_step .section_1 .exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 4px;
+}
+
+.App .form .form_container .first_step .section_1 .exit .exit_btn {
+  width: 10px;
+  height: 10px;
+  background: none;
+  background-image: url(/src/Components/form_toot/img/exit_btn.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App .form .form_container .first_step .section_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  margin-top: 29px;
+}
+
+.App .form .form_container .first_step .section_2 input {
+  height: 56px;
+  background: linear-gradient(358.38deg, #090b0e 23.81%, #0f1216 91.5%);
+  border-radius: 6px;
+  padding: 13px;
+  caret-color: #fff;
+  opacity: 0.34;
+  color: white;
+}
+
+.App .form .form_container .first_step .section_2 input:focus {
+  background: linear-gradient(358.38deg, #000000 100%, #000000 100%);
+  border: 1px solid;
+  border-color: blue;
+}
+
+.App .form .form_container .first_step .section_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  margin-top: 17px;
+}
+
+.App .form .form_container .first_step .section_3 input {
+  height: 56px;
+  background: linear-gradient(358.38deg, #090b0e 23.81%, #0f1216 91.5%);
+  border-radius: 6px;
+  padding: 13px;
+  caret-color: #fff;
+  opacity: 0.34;
+  color: white;
+}
+
+.App .form .form_container .first_step .section_3 input:focus {
+  border: 1px solid;
+  border-color: blue;
+  background: linear-gradient(358.38deg, #000000 100%, #000000 100%);
+}
+
+.App .form .form_container .first_step .section_4 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  margin-top: 17px;
+}
+
+.App .form .form_container .first_step .section_4 input {
+  height: 56px;
+  background: linear-gradient(358.38deg, #090b0e 23.81%, #0f1216 91.5%);
+  border-radius: 6px;
+  padding: 13px 44px;
+  caret-color: #fff;
+  opacity: 0.34;
+  color: white;
+}
+
+.App .form .form_container .first_step .section_4 input:focus {
+  border: 1px solid;
+  border-color: blue;
+  background: linear-gradient(358.38deg, #000000 100%, #000000 100%);
+}
+
+.App .form .form_container .first_step .section_4 img {
+  position: absolute;
+  bottom: 21px;
+  left: 15px;
+}
+
+.App .form .form_container .first_step .section_5 {
+  margin-top: 14px;
+}
+
+.App .form .form_container .first_step .section_5 .next_btn {
+  width: 100%;
+  height: 56px;
+  background: linear-gradient(178.34deg, #7d54f2 4.6%, #702be1 100.16%);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.App .form .form_container .first_step .section_6 {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .form .form_container .first_step .section_6 .social_networks {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 14px;
+}
+
+.App .form .form_container .first_step .section_6 .social_networks .social_networks_btn {
+  width: 65.49px;
+  height: 36.65px;
+  background: #393f47;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .form .form_container .first_step .section_6 .social_networks .social_networks_btn .linkedin_logo {
+  display: block;
+  width: 12px;
+  height: 11px;
+  background-image: url(/src/Components/form_toot/img/linkedin_logo.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App .form .form_container .first_step .section_6 .social_networks .social_networks_btn .facebook_logo {
+  display: block;
+  width: 6.61px;
+  height: 13.22px;
+  background-image: url(/src/Components/form_toot/img/facebook_logo.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App .form .form_container .first_step .section_6 .social_networks .social_networks_btn .google_logo {
+  display: block;
+  width: 10.82px;
+  height: 10.82px;
+  background-image: url(/src/Components/form_toot/img/google_logo.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App .form .form_container .first_step .section_6 .social_networks .social_networks_btn .twitter_logo {
+  display: block;
+  width: 14.42px;
+  height: 12.02px;
+  background-image: url(/src/Components/form_toot/img/twitter_logo.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App .form .form_container .second_step {
+  width: 312px;
+  height: 0;
+  overflow: hidden;
+  background: linear-gradient(358.38deg, #21262d 23.81%, #252a30 98.62%);
+  border-radius: 6px;
+}
+
+.App .form .form_container .second_step .section_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .form .form_container .second_step .section_1 .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 8px;
+}
+
+.App .form .form_container .second_step .section_1 .steps .step {
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background: #53575c;
+  margin-right: 3px;
+}
+
+.App .form .form_container .second_step .section_1 .steps .active {
+  background: linear-gradient(178.34deg, #7d54f2 4.6%, #702be1 100.16%);
+}
+
+.App .form .form_container .second_step .section_1 .middle {
+  margin-right: 10px;
+}
+
+.App .form .form_container .second_step .section_1 .middle h6 {
+  margin: 0;
+  font-weight: bold;
+  line-height: 19px;
+  color: #f2f2f2;
+}
+
+.App .form .form_container .second_step .section_1 .exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 4px;
+}
+
+.App .form .form_container .second_step .section_1 .exit .exit_btn {
+  width: 10px;
+  height: 10px;
+  background: none;
+  background-image: url(/src/Components/form_toot/img/exit_btn.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App .form .form_container .second_step .section_2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  margin-top: 29px;
+}
+
+.App .form .form_container .second_step .section_2 input {
+  height: 56px;
+  background: linear-gradient(358.38deg, #090b0e 23.81%, #0f1216 91.5%);
+  border-radius: 6px;
+  padding: 13px 44px;
+  caret-color: #fff;
+  opacity: 0.34;
+  color: white;
+}
+
+.App .form .form_container .second_step .section_2 input:focus {
+  background: linear-gradient(358.38deg, #000000 100%, #000000 100%);
+  border: 1px solid;
+  border-color: blue;
+}
+
+.App .form .form_container .second_step .section_2 .left_icon {
+  position: absolute;
+  bottom: 21px;
+  left: 15px;
+}
+
+.App .form .form_container .second_step .section_2 .right_icon_correct {
+  display: none;
+  position: absolute;
+  bottom: 17px;
+  right: 15px;
+}
+
+.App .form .form_container .second_step .section_2 > .active {
+  display: block;
+}
+
+.App .form .form_container .second_step .section_3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  margin-top: 17px;
+}
+
+.App .form .form_container .second_step .section_3 input {
+  height: 56px;
+  background: linear-gradient(358.38deg, #090b0e 23.81%, #0f1216 91.5%);
+  border-radius: 6px;
+  padding: 13px 44px;
+  caret-color: #fff;
+  opacity: 0.34;
+  color: white;
+}
+
+.App .form .form_container .second_step .section_3 input:focus {
+  border: 1px solid;
+  border-color: blue;
+  background: linear-gradient(358.38deg, #000000 100%, #000000 100%);
+}
+
+.App .form .form_container .second_step .section_3 .left_icon {
+  position: absolute;
+  bottom: 21px;
+  left: 15px;
+}
+
+.App .form .form_container .second_step .section_4 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  margin-top: 17px;
+}
+
+.App .form .form_container .second_step .section_4 input {
+  height: 56px;
+  background: linear-gradient(358.38deg, #090b0e 23.81%, #0f1216 91.5%);
+  border-radius: 6px;
+  padding: 13px 44px;
+  caret-color: #fff;
+  opacity: 0.34;
+  color: white;
+}
+
+.App .form .form_container .second_step .section_4 input:focus {
+  border: 1px solid;
+  border-color: blue;
+  background: linear-gradient(358.38deg, #000000 100%, #000000 100%);
+}
+
+.App .form .form_container .second_step .section_4 .left_icon {
+  position: absolute;
+  bottom: 21px;
+  left: 15px;
+}
+
+.App .form .form_container .second_step .section_4 .right_icon_wrong {
+  display: none;
+  position: absolute;
+  bottom: 17px;
+  right: 15px;
+}
+
+.App .form .form_container .second_step .section_4 .right_icon_correct {
+  display: none;
+  position: absolute;
+  bottom: 17px;
+  right: 15px;
+}
+
+.App .form .form_container .second_step .section_4 > img.active {
+  display: block;
+}
+
+.App .form .form_container .second_step .section_5 {
+  margin-top: 14px;
+}
+
+.App .form .form_container .second_step .section_5 .next_btn {
+  width: 100%;
+  height: 56px;
+  background: linear-gradient(178.34deg, #7d54f2 4.6%, #702be1 100.16%);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.App .form .form_container .third_step {
+  position: absolute;
+  right: -7rem;
+  width: 548px;
+  height: 0;
+  overflow: hidden;
+  background: linear-gradient(358.38deg, #21262d 23.81%, #252a30 98.62%);
+  border-radius: 6px;
+}
+
+.App .form .form_container .third_step .section_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .form .form_container .third_step .section_1 .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 8px;
+}
+
+.App .form .form_container .third_step .section_1 .steps .step {
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background: #53575c;
+  margin-right: 3px;
+}
+
+.App .form .form_container .third_step .section_1 .steps > .active {
+  background: linear-gradient(178.34deg, #7d54f2 4.6%, #702be1 100.16%);
+}
+
+.App .form .form_container .third_step .section_1 .middle {
+  margin-right: 10px;
+}
+
+.App .form .form_container .third_step .section_1 .middle h6 {
+  margin: 0;
+  font-weight: bold;
+  line-height: 19px;
+  color: #f2f2f2;
+}
+
+.App .form .form_container .third_step .section_1 .exit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 4px;
+}
+
+.App .form .form_container .third_step .section_1 .exit .exit_btn {
+  width: 10px;
+  height: 10px;
+  background: none;
+  background-image: url(/src/Components/form_toot/img/exit_btn.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.App .form .form_container .third_step .section_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 8px;
+}
+
+.App .form .form_container .third_step .section_3 {
+  margin-top: 24px;
+}
+
+.App .form .form_container > .active {
+  position: absolute;
+  top: 7rem;
+  overflow: unset;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 16px;
+}
+/*# sourceMappingURL=style.css.map */

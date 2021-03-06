@@ -1,10 +1,11 @@
 import React from 'react'
-import RandomTask from './Components/RandomTask';
+import Form from './Components/form_toot/Form';
+import './Components/form_toot/css/style.css';
 
 function App() {
   return (
     <div className="App">
-      <RandomTask />
+    <Form />
     </div>
   );
 }
